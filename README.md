@@ -8,7 +8,7 @@ This is a docker image for a Jupyter Notebook for both Python 3 and Node 10 LTS.
 
 ## Making The Docker Container
 
-`docker run --name jupyter-notebook-python3-node -p 8888:8888 -v ./notebooks:/opt/notebooks -d chrisgruber/jupyter-notebook-python3-node`
+`docker run --name jupyter-notebook-python3-node -p 8888:8888 -v ./notebooks:/home/notebooks -d chrisgruber/jupyter-notebook-python3-node`
 
 ## Published At Docker Hub
 
